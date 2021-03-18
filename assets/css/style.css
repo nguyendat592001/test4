@@ -1,0 +1,201 @@
+.boder-radius img {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+
+}
+header,footer{
+    background-color:  rgb(5, 137, 214);
+}
+header h1 {
+    color: white;
+
+}
+footer p {
+    color: white;
+
+}
+.course h1 {
+    color: blue ;
+}
+.box1 {
+    padding: 0;
+    border: 1px solid #000;
+    width: 220px;
+    height: 330px;
+    border-radius: 5px;
+}
+.box2 {
+    padding: 0;
+    border: 1px solid #000;
+    width: 220px;
+    height: 330px;
+    border-radius: 5px;
+}
+.box3 {
+    padding: 0;
+    border: 1px solid #000;
+    width: 220px;
+    height: 330px;
+    border-radius: 5px;
+}
+.box1 img {
+    padding: 0;
+    border: 0;
+    width: 220px;
+    height: 120px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box2 img {
+    padding: 0;
+    border: 0;
+    width: 220px;
+    height: 120px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box3 img {
+    padding: 0;
+    border: 0;
+    width: 220px;
+    height: 120px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.soldout-course1 {
+    padding: 10px;
+    border: 0;
+}
+.soldout-course2 {
+    padding: 10px;
+    border: 0;
+}
+.soldout-course3 {
+    padding: 10px;
+    border: 0;
+}
+.soldout-course1 img {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+    
+}
+.soldout-course2 img {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+    
+}
+.soldout-course3 img {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+    
+}
+.price1 p {
+    text-align: right;
+    color: red;
+}
+.price2 p {
+    text-align: right;
+    color: red;
+}
+.price3 p {
+    text-align: right;
+    color: red;
+}
+  header,main,footer {
+    padding-left: 120px;
+}
+.text p {
+     text-align: left;
+}
+
+.box1,.box2,.box3 {
+    display: inline-block ;
+    margin: 30px;
+}
+section {
+    box-sizing: border-box;
+    display: inline-block;
+}
+html p {
+    font-family: 'Roboto', sans-serif;
+}
+header img , h1 {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+header .boder-radius {
+    position: relative;
+    top: 0
+}
+header  p {
+    display: inline-block ;
+    margin: 20px;
+    position: relative;
+    left: 600px;
+    color: #fff;
+    text-decoration-color: yellow;
+}
+
+
+.list-course{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000;
+    width: 500px;
+    height:170px;
+    overflow: hidden;
+} 
+.overflow-auto .list-course .picture img {
+    float: left;
+}
+.overflow-auto .list-course .soldout-course4 {
+    width: 250px;
+    float: right;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.our-teacher h1 {
+    color: blue;
+}
+.overflow-auto {
+    
+    height: 400px;
+    overflow: auto;
+}
+.footer-left {
+    float: left;
+    
+    height: 300px;
+}
+.footer-right {
+    float: right;
+    
+    height: 300px;
+    position: relative;
+    right: 400px;
+}
+.footer-left img{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+}
+.footer-right ul li {
+    display: block ; 
+    color: #fff;
+}
